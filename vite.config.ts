@@ -19,9 +19,11 @@ export default defineConfig({
   server: {
     port,
     host: '0.0.0.0',
+    allowedHosts: ['amxverse.com', '.amxverse.com', 'amxverse.in', '.amxverse.in'],
   },
   preview: {
     port,
     host: '0.0.0.0',
+    allowedHosts: ['amxverse.com', '.amxverse.com', 'amxverse.in', '.amxverse.in'],
   },
 });
